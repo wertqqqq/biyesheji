@@ -1,0 +1,94 @@
+@import './tokens.scss';
+
+// 设计稿 px 值直接输出为 px（桌面端规范，无 viewport 缩放）。
+// 历史方法名保留，避免大规模改动调用方；auto / 100% 等原样透传。
+@function rem($px) {
+  @if type-of($px) == number and unitless($px) {
+    @return $px * 1px;
+  }
+  @return $px;
+}
+
+// 字体大小 + 颜色
+@mixin sc($px, $color) {
+  font-size: rem($px);
+  color: $color;
+}
+
+// 尺寸（支持 px 数字或 auto/% 等）
+@mixin wh($w, $h) {
+  width: rem($w);
+  height: rem($h);
+}
+
+// 单行省略
+@mixin ellipsis($lines: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @if $lines == 1 {
+    white-space: nowrap;
+  } @else {
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;
+  }
+}
+
+// flex 居中
+@mixin flex-center($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}
+
+// 两端对齐
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// 绝对定位居中
+@mixin abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// 背景图
+@mixin bg-cover($url) {
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+// 桌面端卡片悬停浮起
+@mixin hover-lift($y: -2px) {
+  transition: transform $transition-fast, box-shadow $transition-fast,
+    border-color $transition-fast;
+  &:hover {
+    transform: translateY($y);
+    box-shadow: $shadow-card-hover;
+  }
+}
+
+// 桌面端细滚动条
+@mixin thin-scrollbar($w: 8px) {
+  &::-webkit-scrollbar {
+    width: $w;
+    height: $w;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(23, 26, 33, 0.18);
+    border-radius: $radius-pill;
+    &:hover {
+      background: rgba(23, 26, 33, 0.32);
+    }
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}

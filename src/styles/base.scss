@@ -1,0 +1,139 @@
+@import './tokens.scss';
+@import './mixins.scss';
+
+// ===== 基础 reset =====
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  // 桌面端固定基准字号；rem() 已直接输出 px，此处仅兜底原始 rem 用法
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue',
+    'Microsoft YaHei', 'Segoe UI', Roboto, sans-serif;
+  color: $text-title;
+  background: $bg-page;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow: hidden; // 桌面端由 .app-main 统一管理滚动
+}
+
+::selection {
+  background: rgba(255, 83, 57, 0.22);
+}
+
+// 桌面端键盘焦点可见性（无障碍）
+:focus-visible {
+  outline: 2px solid rgba(255, 83, 57, 0.55);
+  outline-offset: 2px;
+  border-radius: $radius-sm;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  transition: background-color $transition-fast, color $transition-fast,
+    border-color $transition-fast, box-shadow $transition-fast, opacity $transition-fast;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  color: inherit;
+  transition: border-color $transition-fast, box-shadow $transition-fast;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+// ===== 桌面端全局滚动条 =====
+* {
+  @include thin-scrollbar;
+}
+
+// 主内容区（可滚动，占满侧边栏之外的剩余空间）
+.app-main {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  @include thin-scrollbar(10px);
+}
+
+// 通用工具类
+.ellipsis {
+  @include ellipsis(1);
+}
+.ellipsis-2 {
+  @include ellipsis(2);
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-between {
+  @include flex-between;
+}
+.flex-1 {
+  flex: 1;
+  min-width: 0;
+}
+
+// 路由过渡
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.24s ease;
+}
+.slide-enter,
+.slide-leave-to {
+  transform: translateX(100%);
+}

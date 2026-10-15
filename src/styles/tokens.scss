@@ -1,0 +1,76 @@
+// ===== 设计令牌（Design Tokens）=====
+// 统一颜色 / 字体 / 间距 / 圆角 / 阴影，全站复用，便于换肤与主题一致。
+// 桌面端规范：所有尺寸以 px 表达（rem() 现已直接输出 px），随窗口自适应拉伸。
+
+// 品牌色（暖色系，激发食欲）
+$color-primary: #ff5339;
+$color-primary-600: #e8442a;
+$color-primary-100: #ffe9e3;
+$color-primary-soft: #fff4f0; // 悬停浅底
+$color-accent: #ffb027; // 评分 / 促销强调
+$color-success: #16a34a;
+$color-danger: #e5484d;
+$color-warning: #d97706;
+$color-info: #2563eb;
+
+// 文本
+$text-title: #1a1d23;
+$text-body: #4b5261;
+$text-secondary: #8a93a6;
+$text-placeholder: #b4bcca;
+$text-inverse: #ffffff;
+
+// 背景 / 边框
+$bg-page: #f4f5f7;
+$bg-card: #ffffff;
+$bg-hover: #f7f8fa;
+$bg-active: #eef0f4;
+$bg-mask: rgba(15, 18, 22, 0.48);
+$border-color: #e8eaef;
+$border-strong: #d9dde4;
+
+// 深色侧边导航
+$side-bg: #171a21;
+$side-bg-deep: #101317;
+$side-text: rgba(255, 255, 255, 0.66);
+$side-text-strong: rgba(255, 255, 255, 0.92);
+$side-hover: rgba(255, 255, 255, 0.07);
+$side-active: rgba(255, 255, 255, 0.12);
+$side-border: rgba(255, 255, 255, 0.08);
+
+// 圆角（桌面端更现代的大圆角）
+$radius-sm: 6px;
+$radius-md: 10px;
+$radius-lg: 14px;
+$radius-xl: 20px;
+$radius-pill: 999px;
+
+// 阴影（桌面端柔和分层）
+$shadow-card: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
+$shadow-card-hover: 0 6px 16px rgba(16, 24, 40, 0.1), 0 2px 4px rgba(16, 24, 40, 0.06);
+$shadow-float: 0 -4px 20px rgba(16, 24, 40, 0.1);
+$shadow-pop: 0 16px 40px rgba(16, 24, 40, 0.16);
+
+// 间距（px 基线）
+$space-xs: 4px;
+$space-sm: 8px;
+$space-md: 12px;
+$space-lg: 16px;
+$space-xl: 24px;
+$space-2xl: 32px;
+
+// 布局（桌面框架）
+$sidebar-w: 232px; // 侧边导航宽度
+$topbar-h: 60px; // 顶部导航栏高度
+$page-head-h: 56px; // 页内标题栏高度
+$header-height: $page-head-h; // 兼容旧页面头高度引用
+$content-pad: 24px; // 内容区左右留白
+$card-pad: 20px; // 卡片内边距
+
+// 动效
+$transition-fast: 0.15s ease;
+$transition: 0.22s ease;
+
+:export {
+  primary: $color-primary;
+}
