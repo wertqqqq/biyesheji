@@ -1,0 +1,183 @@
+{
+  "guessCity": {
+    "id": 1,
+    "name": "上海",
+    "abbr": "S"
+  },
+  "hotCities": [
+    {
+      "id": 1,
+      "name": "上海",
+      "abbr": "S"
+    },
+    {
+      "id": 2,
+      "name": "北京",
+      "abbr": "B"
+    },
+    {
+      "id": 3,
+      "name": "广州",
+      "abbr": "G"
+    },
+    {
+      "id": 4,
+      "name": "深圳",
+      "abbr": "S"
+    },
+    {
+      "id": 5,
+      "name": "杭州",
+      "abbr": "H"
+    },
+    {
+      "id": 6,
+      "name": "成都",
+      "abbr": "C"
+    }
+  ],
+  "cityGroups": [
+    {
+      "letter": "A",
+      "cities": [
+        {
+          "id": 20,
+          "name": "安庆",
+          "abbr": "A"
+        },
+        {
+          "id": 21,
+          "name": "鞍山",
+          "abbr": "A"
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "cities": [
+        {
+          "id": 2,
+          "name": "北京",
+          "abbr": "B"
+        },
+        {
+          "id": 22,
+          "name": "保定",
+          "abbr": "B"
+        },
+        {
+          "id": 23,
+          "name": "蚌埠",
+          "abbr": "B"
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "cities": [
+        {
+          "id": 6,
+          "name": "成都",
+          "abbr": "C"
+        },
+        {
+          "id": 24,
+          "name": "重庆",
+          "abbr": "C"
+        },
+        {
+          "id": 25,
+          "name": "长沙",
+          "abbr": "C"
+        }
+      ]
+    },
+    {
+      "letter": "G",
+      "cities": [
+        {
+          "id": 3,
+          "name": "广州",
+          "abbr": "G"
+        },
+        {
+          "id": 26,
+          "name": "桂林",
+          "abbr": "G"
+        }
+      ]
+    },
+    {
+      "letter": "H",
+      "cities": [
+        {
+          "id": 5,
+          "name": "杭州",
+          "abbr": "H"
+        },
+        {
+          "id": 27,
+          "name": "合肥",
+          "abbr": "H"
+        },
+        {
+          "id": 28,
+          "name": "哈尔滨",
+          "abbr": "H"
+        }
+      ]
+    },
+    {
+      "letter": "S",
+      "cities": [
+        {
+          "id": 1,
+          "name": "上海",
+          "abbr": "S"
+        },
+        {
+          "id": 4,
+          "name": "深圳",
+          "abbr": "S"
+        },
+        {
+          "id": 29,
+          "name": "苏州",
+          "abbr": "S"
+        }
+      ]
+    }
+  ],
+  "defaultLocation": {
+    "geohash": "31.22299,121.36025",
+    "name": "徐家汇 · 汇金百货",
+    "address": "上海市徐汇区肇嘉浜路 1000 号"
+  },
+  "nearbyPlaces": [
+    {
+      "name": "徐家汇 · 汇金百货",
+      "address": "肇嘉浜路 1000 号",
+      "geohash": "31.22299,121.36025"
+    },
+    {
+      "name": "人民广场 · 来福士",
+      "address": "西藏中路 268 号",
+      "geohash": "31.23221,121.46921"
+    },
+    {
+      "name": "陆家嘴 · 国金中心",
+      "address": "陆家嘴环路 1233 号",
+      "geohash": "31.23969,121.49979"
+    },
+    {
+      "name": "五角场 · 万达广场",
+      "address": "淞沪路 77 号",
+      "geohash": "31.30123,121.51476"
+    },
+    {
+      "name": "中山公园 · 龙之梦",
+      "address": "长宁路 1018 号",
+      "geohash": "31.22013,121.41963"
+    }
+  ]
+}

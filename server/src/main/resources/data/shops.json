@@ -1,0 +1,2094 @@
+[
+  {
+    "id": "1",
+    "name": "川香居 · 麻辣香锅",
+    "image": "🌶️",
+    "logoColor": "#ff9a63",
+    "bannerColor": "#ff5a3c",
+    "category": "快餐便当",
+    "rating": 4.7,
+    "ratingCount": 2387,
+    "recentOrderNum": 1560,
+    "distance": 1200,
+    "deliveryFee": 3,
+    "minOrderAmount": 20,
+    "leadTime": 30,
+    "deliveryMode": {
+      "text": "蜂鸟快送",
+      "color": "#ff9a63"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      },
+      {
+        "id": 3,
+        "name": "发票"
+      },
+      {
+        "id": 4,
+        "name": "票"
+      }
+    ],
+    "isBrand": true,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 30 减 8，满 60 减 20"
+      },
+      {
+        "icon": "首",
+        "tips": "新用户立减 5 元"
+      },
+      {
+        "icon": "赠",
+        "tips": "满 50 赠送解暑酸梅汤一袋"
+      }
+    ],
+    "announcement": "本店食材当日采购，用心做好每一份香锅。高峰时段配送或有延迟，敬请谅解。",
+    "address": "徐汇区肇嘉浜路 1000 号 B1-12",
+    "phone": "021-88881000",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥3"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101002024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "热销榜",
+        "icon": "🔥",
+        "foods": [
+          {
+            "id": "1-f1",
+            "name": "招牌麻辣香锅",
+            "description": "荤素自选 · 麻辣鲜香",
+            "price": 38,
+            "image": "🍲",
+            "monthSales": 510,
+            "rating": 88,
+            "satisfyRate": 94,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "1-f2",
+            "name": "藤椒嫩牛香锅",
+            "description": "现切牛肉 · 藤椒爆香",
+            "price": 46,
+            "image": "🥩",
+            "monthSales": 600,
+            "rating": 89,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "1-f3",
+            "name": "番茄鲜虾香锅",
+            "description": "酸甜番茄 · 鲜活大虾",
+            "price": 48,
+            "image": "🍤",
+            "monthSales": 690,
+            "rating": 90,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "单品加料",
+        "icon": "➕",
+        "foods": [
+          {
+            "id": "1-f4",
+            "name": "精品肥牛",
+            "description": "雪花纹理 · 入口即化",
+            "price": 22,
+            "image": "🥩",
+            "monthSales": 780,
+            "rating": 91,
+            "satisfyRate": 96,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "1-f5",
+            "name": "手打虾滑",
+            "description": "Q 弹爽滑",
+            "price": 18,
+            "image": "🍤",
+            "monthSales": 60,
+            "rating": 92,
+            "satisfyRate": 97,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "1-f6",
+            "name": "鲜嫩鸭血",
+            "description": "去腥入味",
+            "price": 8,
+            "image": "🍽️",
+            "monthSales": 150,
+            "rating": 94,
+            "satisfyRate": 90,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "1-f7",
+            "name": "有机时蔬拼盘",
+            "description": "当日现摘",
+            "price": 12,
+            "image": "🥬",
+            "monthSales": 240,
+            "rating": 95,
+            "satisfyRate": 91,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "主食饮品",
+        "icon": "🍚",
+        "foods": [
+          {
+            "id": "1-f8",
+            "name": "五常米饭",
+            "description": "东北珍珠米",
+            "price": 3,
+            "image": "🍚",
+            "monthSales": 330,
+            "rating": 96,
+            "satisfyRate": 92,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "1-f9",
+            "name": "手工拉面",
+            "description": "现拉现煮",
+            "price": 6,
+            "image": "🍜",
+            "monthSales": 420,
+            "rating": 97,
+            "satisfyRate": 93,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "1-f10",
+            "name": "冰镇酸梅汤",
+            "description": "古法熬制",
+            "price": 8,
+            "image": "🧊",
+            "monthSales": 510,
+            "rating": 88,
+            "satisfyRate": 94,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.7,
+      "service": 4.6,
+      "food": 4.8,
+      "delivery": 4.5
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 2387,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 1432,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 716,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 597,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 477,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 72,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "麦香烘焙坊",
+    "image": "🥐",
+    "logoColor": "#5ac8fa",
+    "bannerColor": "#3b82f6",
+    "category": "甜品蛋糕",
+    "rating": 4.9,
+    "ratingCount": 1862,
+    "recentOrderNum": 980,
+    "distance": 650,
+    "deliveryFee": 0,
+    "minOrderAmount": 15,
+    "leadTime": 25,
+    "deliveryMode": {
+      "text": "蜂鸟快送",
+      "color": "#5ac8fa"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      },
+      {
+        "id": 3,
+        "name": "发票"
+      },
+      {
+        "id": 4,
+        "name": "票"
+      }
+    ],
+    "isBrand": true,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 25 减 5"
+      },
+      {
+        "icon": "新",
+        "tips": "新店开业全场 9 折"
+      }
+    ],
+    "announcement": "每日现烤，18:00 后面包 8 折，欢迎到店选购。",
+    "address": "徐汇区南丹东路 300 号",
+    "phone": "021-88881001",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥0"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101012024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "现烤面包",
+        "icon": "🍞",
+        "foods": [
+          {
+            "id": "2-f11",
+            "name": "海盐芝士可颂",
+            "description": "外酥内软 · 咸香芝士",
+            "price": 16,
+            "image": "🥐",
+            "monthSales": 600,
+            "rating": 89,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "2-f12",
+            "name": "全麦吐司",
+            "description": "低糖低油 · 高纤",
+            "price": 12,
+            "image": "🍞",
+            "monthSales": 690,
+            "rating": 90,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "2-f13",
+            "name": "肉桂卷",
+            "description": "冬日限定暖心",
+            "price": 14,
+            "image": "🌀",
+            "monthSales": 780,
+            "rating": 91,
+            "satisfyRate": 96,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "2-f14",
+            "name": "肉松小贝",
+            "description": "层层肉松 · 咸甜可口",
+            "price": 10,
+            "image": "🧁",
+            "monthSales": 60,
+            "rating": 92,
+            "satisfyRate": 97,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "甜品蛋糕",
+        "icon": "🍰",
+        "foods": [
+          {
+            "id": "2-f15",
+            "name": "草莓奶油蛋糕",
+            "description": "当季草莓 · 动物奶油",
+            "price": 68,
+            "image": "🍰",
+            "monthSales": 150,
+            "rating": 94,
+            "satisfyRate": 90,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "2-f16",
+            "name": "提拉米苏",
+            "description": "意式经典 · 微醺酒香",
+            "price": 42,
+            "image": "🍫",
+            "monthSales": 240,
+            "rating": 95,
+            "satisfyRate": 91,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "2-f17",
+            "name": "抹茶千层",
+            "description": "宇治抹茶 · 20 层",
+            "price": 45,
+            "image": "🍵",
+            "monthSales": 330,
+            "rating": 96,
+            "satisfyRate": 92,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "饮品",
+        "icon": "☕",
+        "foods": [
+          {
+            "id": "2-f18",
+            "name": "美式咖啡",
+            "description": "当日现磨",
+            "price": 15,
+            "image": "☕",
+            "monthSales": 420,
+            "rating": 97,
+            "satisfyRate": 93,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "2-f19",
+            "name": "燕麦拿铁",
+            "description": "燕麦奶 · 醇厚顺滑",
+            "price": 22,
+            "image": "🥛",
+            "monthSales": 510,
+            "rating": 88,
+            "satisfyRate": 94,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.9,
+      "service": 4.8,
+      "food": 5,
+      "delivery": 4.7
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 1862,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 1117,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 559,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 466,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 372,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 56,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "和风寿司屋",
+    "image": "🍣",
+    "logoColor": "#ffd66b",
+    "bannerColor": "#ffb027",
+    "category": "日料寿司",
+    "rating": 4.6,
+    "ratingCount": 1245,
+    "recentOrderNum": 720,
+    "distance": 1800,
+    "deliveryFee": 5,
+    "minOrderAmount": 30,
+    "leadTime": 35,
+    "deliveryMode": {
+      "text": "准时达",
+      "color": "#ffd66b"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      }
+    ],
+    "isBrand": false,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 60 减 15"
+      }
+    ],
+    "announcement": "刺身均选用当日到店冰鲜食材，请放心食用。",
+    "address": "徐汇区漕溪北路 88 号",
+    "phone": "021-88881002",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥5"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101022024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "招牌寿司",
+        "icon": "🍣",
+        "foods": [
+          {
+            "id": "3-f20",
+            "name": "三文鱼刺身",
+            "description": "挪威进口 · 厚切",
+            "price": 48,
+            "image": "🐟",
+            "monthSales": 600,
+            "rating": 89,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "3-f21",
+            "name": "金枪鱼寿司",
+            "description": "赤身 · 油脂丰盈",
+            "price": 28,
+            "image": "🍣",
+            "monthSales": 690,
+            "rating": 90,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "3-f22",
+            "name": "甜虾握寿司",
+            "description": "鲜甜弹牙",
+            "price": 22,
+            "image": "🍤",
+            "monthSales": 780,
+            "rating": 91,
+            "satisfyRate": 96,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "3-f23",
+            "name": "加州卷",
+            "description": "蟹肉沙拉 · 8 件",
+            "price": 32,
+            "image": "🍥",
+            "monthSales": 60,
+            "rating": 92,
+            "satisfyRate": 97,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "热食",
+        "icon": "🍜",
+        "foods": [
+          {
+            "id": "3-f24",
+            "name": "豚骨拉面",
+            "description": "12 小时熬制汤底",
+            "price": 38,
+            "image": "🍜",
+            "monthSales": 150,
+            "rating": 94,
+            "satisfyRate": 90,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "3-f25",
+            "name": "日式炸鸡块",
+            "description": "外酥里嫩",
+            "price": 26,
+            "image": "🍗",
+            "monthSales": 240,
+            "rating": 95,
+            "satisfyRate": 91,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "3-f26",
+            "name": "茶碗蒸",
+            "description": "鲜香滑嫩",
+            "price": 16,
+            "image": "🥘",
+            "monthSales": 330,
+            "rating": 96,
+            "satisfyRate": 92,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "定食",
+        "icon": "🍱",
+        "foods": [
+          {
+            "id": "3-f27",
+            "name": "刺身定食",
+            "description": "主食 + 刺身 + 味噌汤",
+            "price": 68,
+            "image": "🍱",
+            "monthSales": 420,
+            "rating": 97,
+            "satisfyRate": 93,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "3-f28",
+            "name": "照烧鸡排饭",
+            "description": "秘制酱汁",
+            "price": 42,
+            "image": "🍛",
+            "monthSales": 510,
+            "rating": 88,
+            "satisfyRate": 94,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.6,
+      "service": 4.5,
+      "food": 4.7,
+      "delivery": 4.4
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 1245,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 747,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 374,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 311,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 249,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 37,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "茶语时光",
+    "image": "🧋",
+    "logoColor": "#7ee8a2",
+    "bannerColor": "#22c55e",
+    "category": "奶茶饮品",
+    "rating": 4.5,
+    "ratingCount": 3521,
+    "recentOrderNum": 2100,
+    "distance": 900,
+    "deliveryFee": 2,
+    "minOrderAmount": 12,
+    "leadTime": 20,
+    "deliveryMode": {
+      "text": "蜂鸟快送",
+      "color": "#7ee8a2"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      },
+      {
+        "id": 3,
+        "name": "发票"
+      },
+      {
+        "id": 4,
+        "name": "票"
+      }
+    ],
+    "isBrand": true,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "第二杯半价"
+      },
+      {
+        "icon": "首",
+        "tips": "首单立减 3 元"
+      }
+    ],
+    "announcement": "真奶真茶，拒绝奶精。第二杯半价活动进行中。",
+    "address": "徐汇区美罗城 5 楼",
+    "phone": "021-88881003",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥2"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101032024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "招牌奶茶",
+        "icon": "🧋",
+        "foods": [
+          {
+            "id": "4-f29",
+            "name": "黑糖珍珠鲜奶",
+            "description": "现熬珍珠 · 焦香黑糖",
+            "price": 18,
+            "image": "🧋",
+            "monthSales": 600,
+            "rating": 89,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "4-f30",
+            "name": "芝芝莓莓",
+            "description": "草莓果肉 · 芝士奶盖",
+            "price": 24,
+            "image": "🍓",
+            "monthSales": 690,
+            "rating": 90,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "4-f31",
+            "name": "多肉葡萄",
+            "description": "手剥果肉 · 清爽",
+            "price": 22,
+            "image": "🍇",
+            "monthSales": 780,
+            "rating": 91,
+            "satisfyRate": 96,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "4-f32",
+            "name": "杨枝甘露",
+            "description": "港式经典",
+            "price": 20,
+            "image": "🥭",
+            "monthSales": 60,
+            "rating": 92,
+            "satisfyRate": 97,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "纯茶水果",
+        "icon": "🍵",
+        "foods": [
+          {
+            "id": "4-f33",
+            "name": "手打柠檬茶",
+            "description": "香水柠檬 · 暴打",
+            "price": 15,
+            "image": "🍋",
+            "monthSales": 150,
+            "rating": 94,
+            "satisfyRate": 90,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "4-f34",
+            "name": "满杯红柚",
+            "description": "南非西柚",
+            "price": 18,
+            "image": "🍊",
+            "monthSales": 240,
+            "rating": 95,
+            "satisfyRate": 91,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.5,
+      "service": 4.4,
+      "food": 4.6,
+      "delivery": 4.3
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 3521,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 2113,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 1056,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 880,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 704,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 106,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "老北京炸酱面",
+    "image": "🍜",
+    "logoColor": "#c084fc",
+    "bannerColor": "#8b5cf6",
+    "category": "面食粥点",
+    "rating": 4.4,
+    "ratingCount": 986,
+    "recentOrderNum": 640,
+    "distance": 2200,
+    "deliveryFee": 4,
+    "minOrderAmount": 18,
+    "leadTime": 32,
+    "deliveryMode": {
+      "text": "准时达",
+      "color": "#c084fc"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      }
+    ],
+    "isBrand": false,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 20 减 4"
+      }
+    ],
+    "announcement": "手工现擀面条，酱料秘制，欢迎常来。",
+    "address": "徐汇区辛耕路 55 号",
+    "phone": "021-88881004",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥4"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101042024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "招牌面",
+        "icon": "🍜",
+        "foods": [
+          {
+            "id": "5-f35",
+            "name": "老北京炸酱面",
+            "description": "六必居黄酱 · 手擀面",
+            "price": 26,
+            "image": "🍜",
+            "monthSales": 330,
+            "rating": 96,
+            "satisfyRate": 92,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "5-f36",
+            "name": "茄丁打卤面",
+            "description": "北方家常味",
+            "price": 24,
+            "image": "🍆",
+            "monthSales": 420,
+            "rating": 97,
+            "satisfyRate": 93,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "5-f37",
+            "name": "西红柿鸡蛋面",
+            "description": "酸甜开胃",
+            "price": 20,
+            "image": "🍅",
+            "monthSales": 510,
+            "rating": 88,
+            "satisfyRate": 94,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "小吃",
+        "icon": "🥟",
+        "foods": [
+          {
+            "id": "5-f38",
+            "name": "猪肉白菜饺",
+            "description": "现包现煮 · 12 只",
+            "price": 18,
+            "image": "🥟",
+            "monthSales": 600,
+            "rating": 89,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "5-f39",
+            "name": "凉拌黄瓜",
+            "description": "蒜香爽口",
+            "price": 8,
+            "image": "🥒",
+            "monthSales": 690,
+            "rating": 90,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "5-f40",
+            "name": "卤蛋",
+            "description": "老汤卤制",
+            "price": 4,
+            "image": "🥚",
+            "monthSales": 780,
+            "rating": 91,
+            "satisfyRate": 96,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.4,
+      "service": 4.3,
+      "food": 4.5,
+      "delivery": 4.2
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 986,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 592,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 296,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 247,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 197,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 30,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "轻食主义 · 沙拉",
+    "image": "🥗",
+    "logoColor": "#fda4af",
+    "bannerColor": "#f43f5e",
+    "category": "轻食沙拉",
+    "rating": 4.8,
+    "ratingCount": 1523,
+    "recentOrderNum": 540,
+    "distance": 1400,
+    "deliveryFee": 5,
+    "minOrderAmount": 25,
+    "leadTime": 28,
+    "deliveryMode": {
+      "text": "蜂鸟快送",
+      "color": "#fda4af"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      },
+      {
+        "id": 3,
+        "name": "发票"
+      },
+      {
+        "id": 4,
+        "name": "票"
+      }
+    ],
+    "isBrand": true,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 40 减 10"
+      }
+    ],
+    "announcement": "低卡低脂，酱料另配。健身餐首选。",
+    "address": "徐汇区天钥桥路 20 号",
+    "phone": "021-88881005",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥5"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101052024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "能量沙拉",
+        "icon": "🥗",
+        "foods": [
+          {
+            "id": "6-f41",
+            "name": "鸡胸牛油果沙拉",
+            "description": "低卡高蛋白",
+            "price": 42,
+            "image": "🥑",
+            "monthSales": 60,
+            "rating": 92,
+            "satisfyRate": 97,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "6-f42",
+            "name": "三文鱼藜麦碗",
+            "description": "超级食物搭配",
+            "price": 52,
+            "image": "🥗",
+            "monthSales": 150,
+            "rating": 94,
+            "satisfyRate": 90,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "6-f43",
+            "name": "凯撒沙拉",
+            "description": "经典罗马生菜",
+            "price": 34,
+            "image": "🥬",
+            "monthSales": 240,
+            "rating": 95,
+            "satisfyRate": 91,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "健康饮品",
+        "icon": "🥤",
+        "foods": [
+          {
+            "id": "6-f44",
+            "name": "羽衣甘蓝汁",
+            "description": "排毒轻体",
+            "price": 22,
+            "image": "🥤",
+            "monthSales": 330,
+            "rating": 96,
+            "satisfyRate": 92,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "6-f45",
+            "name": "低脂酸奶",
+            "description": "无糖",
+            "price": 12,
+            "image": "🥛",
+            "monthSales": 420,
+            "rating": 97,
+            "satisfyRate": 93,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.8,
+      "service": 4.7,
+      "food": 4.9,
+      "delivery": 4.6
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 1523,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 914,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 457,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 381,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 305,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 46,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "粤点轩 · 茶餐厅",
+    "image": "🍵",
+    "logoColor": "#67e8f9",
+    "bannerColor": "#06b6d4",
+    "category": "粤菜茶点",
+    "rating": 4.6,
+    "ratingCount": 2011,
+    "recentOrderNum": 890,
+    "distance": 2600,
+    "deliveryFee": 6,
+    "minOrderAmount": 30,
+    "leadTime": 38,
+    "deliveryMode": {
+      "text": "准时达",
+      "color": "#67e8f9"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      }
+    ],
+    "isBrand": false,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 80 减 18"
+      }
+    ],
+    "announcement": "粤点师傅现做，早茶时段 7:00-11:00 供应。",
+    "address": "徐汇区衡山路 12 号",
+    "phone": "021-88881006",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥6"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101062024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "经典茶点",
+        "icon": "🍵",
+        "foods": [
+          {
+            "id": "7-f46",
+            "name": "虾饺皇",
+            "description": "整只鲜虾 · 4 只",
+            "price": 28,
+            "image": "🥟",
+            "monthSales": 510,
+            "rating": 88,
+            "satisfyRate": 94,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "7-f47",
+            "name": "豉汁凤爪",
+            "description": "软糯入味",
+            "price": 22,
+            "image": "🍗",
+            "monthSales": 600,
+            "rating": 89,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "7-f48",
+            "name": "荔湾艇仔粥",
+            "description": "料足绵密",
+            "price": 20,
+            "image": "🥣",
+            "monthSales": 690,
+            "rating": 90,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "7-f49",
+            "name": "流沙包",
+            "description": "咸蛋黄爆浆",
+            "price": 18,
+            "image": "🍞",
+            "monthSales": 780,
+            "rating": 91,
+            "satisfyRate": 96,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "烧腊主食",
+        "icon": "🍛",
+        "foods": [
+          {
+            "id": "7-f50",
+            "name": "蜜汁叉烧饭",
+            "description": "明炉现烧",
+            "price": 42,
+            "image": "🍛",
+            "monthSales": 60,
+            "rating": 92,
+            "satisfyRate": 97,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "7-f51",
+            "name": "干炒牛河",
+            "description": "镬气十足",
+            "price": 38,
+            "image": "🍜",
+            "monthSales": 150,
+            "rating": 94,
+            "satisfyRate": 90,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.6,
+      "service": 4.5,
+      "food": 4.7,
+      "delivery": 4.4
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 2011,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 1207,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 603,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 503,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 402,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 60,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "韩宫亭 · 韩式料理",
+    "image": "🍱",
+    "logoColor": "#fdba74",
+    "bannerColor": "#f97316",
+    "category": "韩式料理",
+    "rating": 4.3,
+    "ratingCount": 768,
+    "recentOrderNum": 480,
+    "distance": 3100,
+    "deliveryFee": 6,
+    "minOrderAmount": 35,
+    "leadTime": 40,
+    "deliveryMode": {
+      "text": "准时达",
+      "color": "#fdba74"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      }
+    ],
+    "isBrand": false,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 50 减 12"
+      }
+    ],
+    "announcement": "正宗韩式风味，石锅拌饭免费续饭。",
+    "address": "徐汇区宜山路 500 号",
+    "phone": "021-88881007",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥6"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101072024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "石锅拌饭",
+        "icon": "🍱",
+        "foods": [
+          {
+            "id": "8-f52",
+            "name": "石锅拌饭",
+            "description": "多种蔬菜 · 韩式辣酱",
+            "price": 36,
+            "image": "🍱",
+            "monthSales": 240,
+            "rating": 95,
+            "satisfyRate": 91,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "8-f53",
+            "name": "泡菜五花肉拌饭",
+            "description": "酸辣下饭",
+            "price": 40,
+            "image": "🥘",
+            "monthSales": 330,
+            "rating": 96,
+            "satisfyRate": 92,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "韩式小食",
+        "icon": "🍢",
+        "foods": [
+          {
+            "id": "8-f54",
+            "name": "炸鸡年糕",
+            "description": "甜辣酱 · 韩式炸鸡",
+            "price": 46,
+            "image": "🍗",
+            "monthSales": 420,
+            "rating": 97,
+            "satisfyRate": 93,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "8-f55",
+            "name": "海鲜葱饼",
+            "description": "满满海鲜",
+            "price": 38,
+            "image": "🥞",
+            "monthSales": 510,
+            "rating": 88,
+            "satisfyRate": 94,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "8-f56",
+            "name": "辛拉面",
+            "description": "韩式经典",
+            "price": 20,
+            "image": "🍜",
+            "monthSales": 600,
+            "rating": 89,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.3,
+      "service": 4.2,
+      "food": 4.4,
+      "delivery": 4.1
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 768,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 461,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 230,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 192,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 154,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 23,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "果然鲜 · 水果捞",
+    "image": "🍉",
+    "logoColor": "#ff9a63",
+    "bannerColor": "#ff5a3c",
+    "category": "水果生鲜",
+    "rating": 4.7,
+    "ratingCount": 1102,
+    "recentOrderNum": 610,
+    "distance": 800,
+    "deliveryFee": 3,
+    "minOrderAmount": 15,
+    "leadTime": 22,
+    "deliveryMode": {
+      "text": "蜂鸟快送",
+      "color": "#ff9a63"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      },
+      {
+        "id": 3,
+        "name": "发票"
+      },
+      {
+        "id": 4,
+        "name": "票"
+      }
+    ],
+    "isBrand": true,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 25 减 6"
+      }
+    ],
+    "announcement": "水果当日现切，绝不使用隔夜果切。",
+    "address": "徐汇区广元西路 88 号",
+    "phone": "021-88881008",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥3"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101082024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "鲜切水果",
+        "icon": "🍉",
+        "foods": [
+          {
+            "id": "9-f57",
+            "name": "缤纷水果捞",
+            "description": "8 种水果任选",
+            "price": 26,
+            "image": "🍉",
+            "monthSales": 690,
+            "rating": 90,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "9-f58",
+            "name": "西瓜汁",
+            "description": "现榨无添加",
+            "price": 14,
+            "image": "🍹",
+            "monthSales": 780,
+            "rating": 91,
+            "satisfyRate": 96,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "9-f59",
+            "name": "芒果班戟",
+            "description": "港式甜品",
+            "price": 16,
+            "image": "🥭",
+            "monthSales": 60,
+            "rating": 92,
+            "satisfyRate": 97,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.7,
+      "service": 4.6,
+      "food": 4.8,
+      "delivery": 4.5
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 1102,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 661,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 331,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 276,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 220,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 33,
+        "unsatisfied": true
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "深夜食堂 · 烧烤",
+    "image": "🍢",
+    "logoColor": "#5ac8fa",
+    "bannerColor": "#3b82f6",
+    "category": "烧烤夜宵",
+    "rating": 4.5,
+    "ratingCount": 2180,
+    "recentOrderNum": 1340,
+    "distance": 1900,
+    "deliveryFee": 4,
+    "minOrderAmount": 25,
+    "leadTime": 35,
+    "deliveryMode": {
+      "text": "准时达",
+      "color": "#5ac8fa"
+    },
+    "supports": [
+      {
+        "id": 1,
+        "name": "保"
+      },
+      {
+        "id": 2,
+        "name": "准"
+      }
+    ],
+    "isBrand": false,
+    "activities": [
+      {
+        "icon": "减",
+        "tips": "满 60 减 16"
+      },
+      {
+        "icon": "夜",
+        "tips": "夜间配送免配送费"
+      }
+    ],
+    "announcement": "营业至凌晨 2 点，夜宵好去处。炭火现烤。",
+    "address": "徐汇区复兴中路 33 号",
+    "phone": "021-88881009",
+    "piecewiseAgentFee": {
+      "tips": "配送费 ¥4"
+    },
+    "safe": {
+      "certified": true,
+      "markdown": "## 商家资质\n\n- 已通过平台资质审核\n- 食品经营许可证编号：JY3101092024\n- 员工均持有效健康证\n\n## 放心承诺\n\n1. 食材新鲜，当日采购\n2. 后厨定期消杀\n3. 支持在线支付，开具发票"
+    },
+    "menu": [
+      {
+        "name": "炭烤招牌",
+        "icon": "🍢",
+        "foods": [
+          {
+            "id": "10-f60",
+            "name": "烤羊肉串",
+            "description": "内蒙古羔羊 · 5 串",
+            "price": 25,
+            "image": "🍢",
+            "monthSales": 150,
+            "rating": 94,
+            "satisfyRate": 90,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "10-f61",
+            "name": "烤生蚝",
+            "description": "乳山生蚝 · 4 只",
+            "price": 38,
+            "image": "🦪",
+            "monthSales": 240,
+            "rating": 95,
+            "satisfyRate": 91,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          },
+          {
+            "id": "10-f62",
+            "name": "烤鸡翅",
+            "description": "蜜汁入味 · 3 只",
+            "price": 21,
+            "image": "🍗",
+            "monthSales": 330,
+            "rating": 96,
+            "satisfyRate": 92,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "标准"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "烤素海鲜",
+        "icon": "🥬",
+        "foods": [
+          {
+            "id": "10-f63",
+            "name": "烤韭菜",
+            "description": "炭火鲜香",
+            "price": 10,
+            "image": "🥬",
+            "monthSales": 420,
+            "rating": 97,
+            "satisfyRate": 93,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "10-f64",
+            "name": "烤鱿鱼",
+            "description": "Q 弹有嚼劲",
+            "price": 24,
+            "image": "🦑",
+            "monthSales": 510,
+            "rating": 88,
+            "satisfyRate": 94,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          },
+          {
+            "id": "10-f65",
+            "name": "锡纸花甲",
+            "description": "蒜香浓郁",
+            "price": 28,
+            "image": "🦪",
+            "monthSales": 600,
+            "rating": 89,
+            "satisfyRate": 95,
+            "specs": [
+              {
+                "name": "份量",
+                "value": "大份"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scores": {
+      "overall": 4.5,
+      "service": 4.4,
+      "food": 4.6,
+      "delivery": 4.3
+    },
+    "tags": [
+      {
+        "name": "全部",
+        "count": 2180,
+        "unsatisfied": false
+      },
+      {
+        "name": "味道赞",
+        "count": 1308,
+        "unsatisfied": false
+      },
+      {
+        "name": "分量足",
+        "count": 654,
+        "unsatisfied": false
+      },
+      {
+        "name": "配送快",
+        "count": 545,
+        "unsatisfied": false
+      },
+      {
+        "name": "价格实惠",
+        "count": 436,
+        "unsatisfied": false
+      },
+      {
+        "name": "服务一般",
+        "count": 65,
+        "unsatisfied": true
+      }
+    ]
+  }
+]

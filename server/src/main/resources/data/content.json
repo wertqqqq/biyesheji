@@ -1,0 +1,273 @@
+{
+  "foodCategories": [
+    {
+      "id": 1,
+      "name": "美食",
+      "icon": "🍜"
+    },
+    {
+      "id": 2,
+      "name": "快餐便当",
+      "icon": "🍱"
+    },
+    {
+      "id": 3,
+      "name": "奶茶饮品",
+      "icon": "🧋"
+    },
+    {
+      "id": 4,
+      "name": "甜品蛋糕",
+      "icon": "🍰"
+    },
+    {
+      "id": 5,
+      "name": "川湘菜",
+      "icon": "🌶️"
+    },
+    {
+      "id": 6,
+      "name": "早餐",
+      "icon": "🥟"
+    },
+    {
+      "id": 7,
+      "name": "水果生鲜",
+      "icon": "🍉"
+    },
+    {
+      "id": 8,
+      "name": "超市便利",
+      "icon": "🏪"
+    }
+  ],
+  "deliveryModes": [
+    {
+      "id": 1,
+      "name": "蜂鸟快送"
+    },
+    {
+      "id": 2,
+      "name": "准时达"
+    },
+    {
+      "id": 3,
+      "name": "到店自取"
+    }
+  ],
+  "activityAttributes": [
+    {
+      "id": 1,
+      "name": "品牌商家"
+    },
+    {
+      "id": 2,
+      "name": "新店开业"
+    },
+    {
+      "id": 3,
+      "name": "在线支付"
+    },
+    {
+      "id": 4,
+      "name": "开发票"
+    },
+    {
+      "id": 5,
+      "name": "满减优惠"
+    },
+    {
+      "id": 6,
+      "name": "会员红包"
+    }
+  ],
+  "quickRemarks": [
+    "不要辣",
+    "少辣",
+    "多饭",
+    "少饭",
+    "加辣",
+    "不要葱",
+    "打包",
+    "尽快送达"
+  ],
+  "serviceCenter": {
+    "categories": [
+      {
+        "name": "账户问题",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "如何修改绑定手机号？",
+            "answer": "进入「我的 → 设置 → 账号与安全」，按提示验证后即可更换手机号。"
+          },
+          {
+            "id": "q2",
+            "question": "忘记密码怎么办？",
+            "answer": "在登录页点击「忘记密码」，通过短信验证码重置。"
+          }
+        ]
+      },
+      {
+        "name": "订单问题",
+        "questions": [
+          {
+            "id": "q3",
+            "question": "如何申请退款？",
+            "answer": "进入「订单 → 对应订单 → 申请售后」，按提示提交，客服会在 24 小时内处理。"
+          },
+          {
+            "id": "q4",
+            "question": "配送超时怎么办？",
+            "answer": "超时订单可申请「准时宝」赔付，具体以订单页面展示为准。"
+          }
+        ]
+      },
+      {
+        "name": "会员与优惠",
+        "questions": [
+          {
+            "id": "q5",
+            "question": "会员卡如何开通？",
+            "answer": "进入「我的 → 会员卡」，选择套餐并支付即可开通，享多重新人礼。"
+          },
+          {
+            "id": "q6",
+            "question": "红包如何使用？",
+            "answer": "结算时在红包列表勾选可用红包，满足门槛将自动抵扣。"
+          }
+        ]
+      }
+    ]
+  },
+  "vipDescription": {
+    "title": "会员特权说明",
+    "privileges": [
+      {
+        "icon": "🎁",
+        "name": "每月红包",
+        "desc": "每月赠送 5 张无门槛红包"
+      },
+      {
+        "icon": "🚀",
+        "name": "优先配送",
+        "desc": "高峰期优先派单"
+      },
+      {
+        "icon": "💰",
+        "name": "专享折扣",
+        "desc": "部分商家会员价"
+      },
+      {
+        "icon": "🎂",
+        "name": "生日礼遇",
+        "desc": "生日当月双倍积分"
+      }
+    ],
+    "plans": [
+      {
+        "id": "m1",
+        "name": "连续包月",
+        "price": 15,
+        "originPrice": 20
+      },
+      {
+        "id": "m2",
+        "name": "连续包季",
+        "price": 45,
+        "originPrice": 60
+      },
+      {
+        "id": "m3",
+        "name": "年卡",
+        "price": 168,
+        "originPrice": 240
+      }
+    ]
+  },
+  "hongbaos": [
+    {
+      "id": "h1",
+      "amount": 5,
+      "limitMap": 30,
+      "name": "满 30 可用",
+      "expireAt": "2026-12-31"
+    },
+    {
+      "id": "h2",
+      "amount": 8,
+      "limitMap": 50,
+      "name": "满 50 可用",
+      "expireAt": "2026-11-20"
+    },
+    {
+      "id": "h3",
+      "amount": 3,
+      "limitMap": 20,
+      "name": "满 20 可用",
+      "expireAt": "2026-10-30"
+    }
+  ],
+  "expiredHongbaos": [
+    {
+      "id": "he1",
+      "amount": 10,
+      "limitMap": 60,
+      "name": "已过期",
+      "expireAt": "2026-08-01"
+    }
+  ],
+  "points": {
+    "total": 2360,
+    "history": [
+      {
+        "id": "p1",
+        "type": "获得",
+        "amount": 60,
+        "desc": "完成订单 o9001",
+        "timeAgo": "3 天前"
+      },
+      {
+        "id": "p2",
+        "type": "消耗",
+        "amount": 100,
+        "desc": "兑换红包",
+        "timeAgo": "1 周前"
+      },
+      {
+        "id": "p3",
+        "type": "获得",
+        "amount": 40,
+        "desc": "完成订单 o9000",
+        "timeAgo": "2 周前"
+      }
+    ]
+  },
+  "balance": {
+    "amount": 128,
+    "detail": [
+      {
+        "id": "b1",
+        "type": "充值",
+        "amount": 100,
+        "desc": "微信充值",
+        "timeAgo": "1 周前"
+      },
+      {
+        "id": "b2",
+        "type": "消费",
+        "amount": -28,
+        "desc": "订单消费",
+        "timeAgo": "3 天前"
+      }
+    ]
+  },
+  "user": {
+    "id": "u1001",
+    "username": "知味用户",
+    "avatar": "🙂",
+    "balance": 12800,
+    "points": 2360,
+    "giftAmount": 3
+  }
+}
